@@ -7,7 +7,7 @@ TARGET_NAME = "lsqlite"
 ----工程类型: static/dynamic/exe
 PROJECT_TYPE = "dynamic"
 
-EX_FLAGS = {
+FLAGS = {
     "Wno-implicit-fallthrough"
 }
 
@@ -44,10 +44,6 @@ MIMALLOC = false
 --需要连接的库文件
 LIBS = {
     "lua"
-}
-
-PSLIBS = {
-    "ScePosix_stub_weak"
 }
 
 --依赖项目
